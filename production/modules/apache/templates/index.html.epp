@@ -1,0 +1,13 @@
+<%- | $student_name,
+  $node,
+| -%>
+<!-- This file is managed by Puppet. Please do not make manual changes. -->
+<html>
+  <head>
+    <title>Using puppet template</title>
+  </head>
+  <body bgcolor=gray>
+    <h1><%= $student_name %></h1>
+    <h2><%= $node %></h2>
+  </body>
+</html>

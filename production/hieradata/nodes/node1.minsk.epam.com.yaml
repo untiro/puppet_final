@@ -1,0 +1,5 @@
+---
+profile::mysql_inst::mariadb::user: zabbix
+profile::mysql_inst::mariadb::pass: Zabbix_2017
+profile::mysql_inst::mariadb::db: zabbix
+profile::mysql_inst::mariadb::db_server: localhost
